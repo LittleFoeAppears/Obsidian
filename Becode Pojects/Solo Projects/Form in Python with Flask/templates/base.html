@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Flask Form{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function toggleForm() {
+            var defaultBlock = document.getElementById('defaultBlock');
+            var formBlock = document.getElementById('formBlock');
+            var inCodeWeTrust = document.getElementById('inCodeWeTrust');
+            var contactUs = document.getElementById('contactUs');
+            
+            if (formBlock.style.display === 'none') {
+                formBlock.style.display = 'block';
+                defaultBlock.style.display = 'none';
+                inCodeWeTrust.style.display = 'none';
+                contactUs.style.display = 'block';
+            } else {
+                formBlock.style.display = 'none';
+                defaultBlock.style.display = 'block';
+                inCodeWeTrust.style.display = 'block';
+                contactUs.style.display = 'none';
+            }
+
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Hackers Poulette™</h1>
+    </header>
+    <main>
+        <h2 id="inCodeWeTrust">In Code We Trust</h2>
+        <div id="defaultBlock">
+            <img src="static/Hacker_Poulette1.jpg" alt="Hacker Poulette">
+            <p>Hacker Poulette is a vibrant community of tech enthusiasts, hackers, and makers.</p>
+            <p>Our mission is to foster a collaborative environment where individuals can share knowledge, 
+                explore innovative technologies, and develop creative solutions to complex problems. 
+                Whether you're a seasoned programmer, a hardware tinkerer, or a tech newbie, 
+                you'll find a welcoming space to learn and grow with like-minded individuals.</p> 
+            <p>Join us for workshops, hackathons, and meetups to expand your skills and network with 
+                industry professionals. Together, we push the boundaries of technology and make 
+                meaningful contributions to the tech world.</p>
+            <button onclick="toggleForm()">Contact Us</button>
+        </div>
+        <div id="formBlock" style="display:none;">
+            <h2 id="contactUs" style="display:none;">Contact Us</h2>
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hackers Poulette™</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+## 1. Keyword
+*Choose a word or multiples that you will remember easilly and a favorite number*
+
+> - Unicorn ``2``
+> - DonutOperator ``666``
+> - TheHacker PizzaKiller ``7``
+
+_Use ``UPPER CASE`` and ``lower case``, the longer the better_
+
+---
+
+## 2. Mesh words
+*Use the name of the app and choose a rule to mesh it with your word(s)*
+
+### Google
+> - **Uni** *``( 4 first letters of the name )``* **corn** *``( remaining letters )``* 
+> ```
+> Unigoogcornle
+> ```
+>  
+> 
+> - **DonutOperator** *``( 2 letters of name )+( space for later )+(remaining Letters )``*
+> ```
+> DonutOperatorgo  ogle
+> ```
+> 
+> 
+> - **TheHAcker** *``( name )+( space for later )``* **PizzaKiller**
+> ```
+> TheHackergoogle  PizzaKiller
+> ```
+
+
+
+### Twitter
+> ```
+> Unitwitcornter
+> ```
+> ```
+> DonutOperatortw itter
+> ```
+> ```
+> TheHackertwitter PizzaKiller
+> ```
+
+---
+## 3. Make a number
+*Now choose a first easy way to get numbers, you will need at least too*
+### Google
+> - **Unigoogcornle** *``( n of letters in name )x( favorite n x 111 )``* 
+> **Unigoogcornle** *``( 6 )x( 222 )``*
+> **Unigoogcornle** *``( 1332 )``*
+> ```
+> Unigoogcornle1332
+> ```
+>  
+> 
+> - **DonutOperatorgo** *``( n of remaining letters ) ( n of rem. let. x fav. n  )``* **ogle**
+> **DonutOperatorgo** *``( 4 ) ( 4 x 12  )``* **ogle**
+> **DonutOperatorgo** *``( 4 ) ( 48  )``* **ogle**
+> ```
+> DonutOperatorgo448ogle
+> ```
+> 
+> 
+> - **TheHAckergoogle** *``( n of let. x fav. )``* **PizzaKiller**
+> **TheHAckergoogle** *``( 6 x 666 )``* **PizzaKiller**
+> **TheHAckergoogle** *``( 3996 )``* **PizzaKiller**
+>
+> ```
+> TheHackergoogle3996  PizzaKiller
+> ```
+
+### Twitter
+> - **Unitwitcornter** *``( n of letters in name )x( favorite n x 111 )``* 
+> **Unitwitcornter** *``( 7 )x( 222 )``*
+> **Unitwitcornter** *``( 1554 )``*
+> ```
+> Unitwitcornter1554
+> ```
+>  
+> 
+> - **DonutOperatortw** *``( n of remaining letters ) ( n of rem. let. x fav. n  )``* **itter**
+> **DonutOperatortw** *``( 2 ) ( 2 x 12  )``* **itter**
+> **DonutOperatortw** *``( 2 ) ( 24  )``* **itter**
+> ```
+> DonutOperatortw224itter
+> ```
+> 
+> 
+> - **TheHackertwitter** *``( n of let. x fav. )``* **PizzaKiller**
+> **TheHackertwitter** *``( 7 x 666 )``* **PizzaKiller**
+> **TheHackertwitter** *``( 4662 )``* **PizzaKiller**
+>
+> ```
+> TheHackertwitter4662  PizzaKiller
+> ```
+
+*Of course choose something easy for you to calculate. These are just examples*
+
+---
+## 4. Make another number
+*Make another formula to get a number using another approach*
+### Google
+> - **Unigoogcornle1332** *``( n of letters password )x( n of rem. let. )``* 
+> **Unigoogcornle1332** *``( 7 + 6 )x( 2 )``* 
+> **Unigoogcornle1332** *``( 26 )``* 
+> ```
+> Unigoogcornle133226
+> ```
+>  
+>
+> - **DonutOperatorgo448ogle** *``(  if n of rem. let. is pair = 222 if not = 333 )``*
+> **DonutOperatorgo448ogle** *``( 222 )``*
+> ```
+> DonutOperatorgo448ogle222
+> ```
+> 
+>
+> - **TheHackergoogle3996** *``( n of name letters maching with PizzaKiller )``* **PizzaKiller**
+> **TheHackergoogle3996** *``( 2 )``* **PizzaKiller**
+>
+> ```
+> TheHackergoogle39962PizzaKiller
+> ```
+---
+### Twitter
+> - **Unitwitcornter1554** *``( n of letters password )x( n of rem. let. )``* 
+> **Unitwitcornter1554** *``( 7 + 7 )x( 2 )``* 
+> **Unitwitcornter1554** *``( 28 )``* 
+> ```
+> Unitwitcornter155428
+> ```
+>  
+>
+> - **DonutOperatortw224itter** *``(  if n of rem. let. is pair = 222 if not = 333 )``*
+> **DonutOperatortw224itter** *``( 333 )``*
+> ```
+> DonutOperatortw224itter333
+> ```
+>
+>
+> - **TheHackertwitter4662** *``( n of name letters maching with PizzaKiller )``* **PizzaKiller**
+> **TheHackertwitter4662** *``( 3 )``* **PizzaKiller**
+>
+> ```
+> TheHackertwitter46623PizzaKiller
+> ```
+
+*You don't need to do something hard to solve by head.
+You just need to use super random rules.
+It should be hard for someone to know what rules you've chosen even if they see multiple passwords*
+
+---
+## 5. Results
+*You now have a formula to make easily randomized passwords for any service*
+*You also have a way to "remember" them all by simply solving the formula for a service*
+#### Unicorn
+
+>```
+>Google : Unigoogcornle133226
+>Twitter: Unitwitcornter155428
+>```
+>**Uni** *4na.* **corn** *rem.* (*na.* x 222) (*pass.* x *rem.*)
+---
+#### DonutOperator
+
+>```
+>Google : DonutOperatorgo448ogle222
+>Twitter: DonutOperatortw224itter333
+>```
+>**DonutOperator** *2na.* (*rem.*) (*rem.* x 12) *rem.* (if *rem.* pair=222 /=333)
+---
+#### TheHacker PizzaKiller
+>
+>```
+>Google : TheHackergoogle39962PizzaKiller
+>Twitter: TheHackertwitter46623PizzaKiller
+>```
+>**TheHacker** *na.* (*na.* x 666) (*na.* in PizzaKiller) **PizzaKiller**
+---
+
+*Don't worry to much about my way of writing the formula. Obviously you sould write it the way you want, so that you understand the meaning.*
+
+*You can write it on a post-it on some thing until you've memorized it.*
