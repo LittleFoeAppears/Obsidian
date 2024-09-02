@@ -1,4 +1,4 @@
-![[Full_network.png]]
+![Full_network.png](Assets/Full_network.png)
 
 # Subnets and VLANs
 
@@ -12,11 +12,11 @@ To comply with our clients requirements we need to establish different subnets a
 
 We configure one switch per subnet and we connect the correct number of hosts to those switches. All the subnet switches except for the DMZ switch is plugged to the Internal Router and the DMZ switch is connected to the External Router. 
 
-![VLAN DATABASE](VLAN_DATABASE.png)
+![VLAN DATABASE](Assets/VLAN_DATABASE.png)
 
-![VLAN HOST](VLAN_HOST_PORT.png)
+![VLAN HOST](Assets/VLAN_HOST_PORT.png)
 
-![TRUNK](VLAN_TRUNK.png)
+![TRUNK](Assets/VLAN_TRUNK.png)
 
 We created VLANs on each switch as shown earlier , attributed every host port to those VLANs and for the port connected from the switch to the router we need to establish them as Trunks . 
 
@@ -75,7 +75,7 @@ We create our servers are assign them static ips as such :
 
 We can configure it by going to the service tab , put it on and add some DNS record by providing a name, an Ip and a record type as such : 
 
-![DNS](DNS_TAB.png)
+![DNS](Assets/DNS_TAB.png)
 
 Don't forget to copy the DNS server address and input it on all the static ip configured hosts on the network.
 
@@ -83,7 +83,7 @@ Don't forget to copy the DNS server address and input it on all the static ip co
 
 We can configure it by going to the service tab, put it on and create a DHCP pool per subnet/VLAN as such :  
 
-![DHCP Pools](DHCP_POOL.png)
+![DHCP Pools](Assets/DHCP_POOL.png)
 
 Example : 
 > 
@@ -102,15 +102,15 @@ We can configure it by going to the service tab , put it on and configure the IS
 An iSCSI server is like a remote hard drive that you can connect to over your regular network cable, letting you store files on it from another computer.
 Since it is not possible on Cisco Packet tracer we decided to emulate it by creating an FTP server : 
 
-![FTP Config](FTP.png)
+![FTP Config](Assets/FTP.png)
 
-![FTP Logged](FTP_ACCESS.png)
+![FTP Logged](Assets/FTP_ACCESS.png)
 
 #### RADIUS Server : 
 
 We can configure it by going to the aaa service tab, put it on and configure it as such : 
 
-![Radius Config](RADIUS_CONFIG.png)
+![Radius Config](Assets/RADIUS_CONFIG.png)
 
 We can then configure each routers from our network to use radius as such : 
 
@@ -129,18 +129,18 @@ transport input all
 end
 ```
 
-![Radius Login](RADIUS_ROUTER.png)
+![Radius Login](Assets/RADIUS_ROUTER.png)
 
 Now, to enter to an host CLI you'd need to have credentials that gives access to the host.
 
-![Radius Access](RADIUS_ACCESS.png)
+![Radius Access](Assets/RADIUS_ACCESS.png)
 
 #### ACTIVE DIRECTORY Server :
 
 Active Directory is an electronic phonebook for your network, storing user accounts, devices, and permissions in one central location for easy management and secure access.
 Since it's not possible to make one in cisco packet tracer we've decided to emulate one by making a server that would host the active directory on a web page.
 
-![Active Directory](ACTIVE_DIRECTORY.png)
+![Active Directory](Assets/ACTIVE_DIRECTORY.png)
 
 ---
 # The Outside 
@@ -148,7 +148,7 @@ Since it's not possible to make one in cisco packet tracer we've decided to emul
 We then connected our external router to the internet. 
 We emulated the internet by creating a cluster from where outsiders could host their servers ( In our example we created a google server )  and we made sure that we could access them from any hosts in our network. 
 
-![Google](GOOGLE.png)
+![Google](Assets/GOOGLE.png)
 
 ---
 
@@ -156,9 +156,9 @@ We emulated the internet by creating a cluster from where outsiders could host t
 
 Our routers are connected via serial DTE cable and we configured the routes as such : 
 
-![Routes Internal](ROUTER_1.png)
+![Routes Internal](Assets/ROUTER_1.png)
 
-![Routes External](ROUTER_2.png)
+![Routes External](Assets/ROUTER_2.png)
 
 For example connecting our internal router to the dmz : 
 
