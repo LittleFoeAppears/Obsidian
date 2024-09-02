@@ -1,0 +1,9 @@
+,cmd.exe,Command Prompt,,
+,compmgmt.msc,"computer managment ( tools like sheduler, event viewer, ...  )",lusrmgr.exe,User Managment
+,lusrmgr.exe,User Managment,msconfig.exe,system configuration ( Windows Tools tab )
+,msconfig.exe,system configuration ( Windows Tools tab ),compmgmt.msc,"computer managment ( tools like sheduler, event viewer, ...  )"
+,msinfo32.exe,System Information ( see Environment Variables etc. ),msinfo32.exe,System Information ( see Environment Variables etc. )
+,regedt32.exe,"Windows Registry ( database for info on users, apps and hardware continually referenced during operation )",resmon.exe,Resource Monitor ( advanced task manager ~ )
+,resmon.exe,Resource Monitor ( advanced task manager ~ ),cmd.exe,Command Prompt
+,WF.msc,Windows Firewall ( settings ),regedt32.exe,"Windows Registry ( database for info on users, apps and hardware continually referenced during operation )"
+,,,WF.msc,Windows Firewall ( settings )

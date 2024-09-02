@@ -1,0 +1,37 @@
+Abreviation,Spelling,Info,Description,Tag
+IP Address,Internet Protocol,Local IP Adress : 127.0.0.1 _this adress is local host_,Machine Name Made of 4 Octets.,Abr
+MAC Address,Media Access Control,used by router to know which machine is which,Machine Fingerprint Made by the manufacturer,Abr
+ICMP,Internet Control Message Protocol,used to ping or traceroute for ex,Assure good connectivity between machine,Abr
+LAN,Local Area Network,,Network formed by connected local machines,Abr
+ARP,Address Resolution Protocol,ARP Request and Reply,Used to identify Devices to each other on network _Save there IP\\MAC_,Abr
+DHCP,Dynamic Host Configuration Protocol ,**| Discover |** ..Offer.. **| Request |** ..ACK.. |,How Devices get their IP from the Server,Abr
+OSI Model,Open Systems Interconnection Model ,,"7 Layers of data: [[Physical]], [[Data Link]], [[Network]], [[Transport]], [[Session]], [[Presentation]], [[Application]]",Abr
+DNS,Domain Name System,ex; tryhackme.com instead of IP;104.26.10.229,Communicate on internet without complex numbers,Abr
+TCP,Transmission Control Protocol,"perfect data, ex: mail, website **| SYN |** ..SYN ACK.. **| ACK |**","Garantee constant connection between Devices until Data transfer end, unlike [[UDP]]",Abr
+UDP,User Datagram Protocol ,"whatever got through data, ex: streaming vid, multiplayer","No synchronisation Data transfer, just shoot and forget the data, unlike [[TCP]]",Abr
+OSPF,Open Shortest Path First,,"Used to save known internet path, so you don't need to calculate hyperjump coordinates everytime",Abr
+RIP,Routing Information Protocol,,Router can communicate routing information through this format,Abr
+NIC,Network Interface Card,,The part that has the [[MAC Address]] on a Device,Abr
+ISN,Initial Sequence Number,,Value sent first to synchronize packets during a three-way handshake,Abr
+FTP,File Transfer Protocol,|[Port 21]|,,Abr
+SSH,Secure SHell ,|[Port 22]|,Encrypted login protocol for connecting on another internet device using terminale interface,Abr
+HTTP,HyperText Transfer Protocol,|[Port 80]|,,Abr
+HTTPS,HyperText Transfer Protocol Secure ,|[Port 443]|,Uses Encryption,Abr
+SMB,Server Message Block,|[Port 445]|,Like [[FTP]] + share devices like printers,Abr
+RDP,Remote Desktop Protocol,|[Port 3389]|,Like [[SSH]] but visual desktop interface,Abr
+TLD,Top Level Domain,**ccTLD**: .fr .be .uk .us | **gTLD**: .com .gov .edu,Is the _.somthing_ closing an address which is the top directory whitin which the address domain is stored.,Abr
+TTL,Time To Live,,Death count for self termination,Abr
+URL,Uniform Resource Locator,composed of protocols + domain name,Complete unique internet address used to locate any asset on a web page,Abr
+HTML,HyperText Markup Language,,Language for structure of Web sites,Abr
+CDN,Content Delivery Network ,optimizes so that you don't speak with distant servers if you can avoid it,Sends your web request to nearest server to you in the world,Abr
+WAF,Web Application Firewall ,,,Abr
+PID,Process ID number ,,Value that sets in wich order processes starts,Abr
+GPG,Gnu Privacy Guard,,Keys to insure you install an authentic progam,Abr
+NTFS,New Technology File System ,,"File system used on Windows, successor of [[FAT]]",Abr
+ADS,Alternate Data Streams,,"Files have 1 data stream, this gives [[NTFS]] file ability for more",Abr
+UAC,User Account Control ,,Administrator authorization system,Abr
+TPM,Trusted Platform Module ,,Hardware ship focused on encrytping using BitLocker ,Abr
+VSS,Volume Shadow Copy Service ,,"Make snapshot of disk state for futur restoration. malware offten deletes those files, so offsite backups are a must",Abr
+CLI,Cmd Line Interface,,Terminal on [[Linux]],Abr
+BASH,,hacker@hacker-computer: ~$,"Based on SH, is the line telling you from where you type a cmd in [[Linux]] terminal ",Abr
+IOS,Internetwork Operating System,,"OS for router and switches. Access trough [[Console]], [[SSH]], [[Telnet]] or [[AUX]]",Abr

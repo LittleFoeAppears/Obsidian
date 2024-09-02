@@ -1,0 +1,75 @@
+Cmd,Description,Category,Example,Info,CmdType
+man,display system documentation,Help,man mkdir,"use man first, then the input. It will open the manuel for the input",LinuxCmd
+whatis,prints manual page description,Help,,doesn't always work?,LinuxCmd
+info,read _Info_ documents,Help,,,LinuxCmd
+--help,get help for cmd,Help,mkdir --help,describse how the cmd works,LinuxCmd
+cd,change current directory,Navigation,cd Desktop,"navigate to a forlder so you can affect or list its content. Only typing cd will get you back to root, cd .. will go up 1 lvl",LinuxCmd
+ls,list directory content,Navigation,ls -l,ls allows you to see what is inside a directory. ```ls -l``` list owner,LinuxCmd
+pwd,print the current directory,Navigation,,know your actual path,LinuxCmd
+pushd,"go to a folder while keeping old location on _""cache""_",Navigation,,make a cache save of where you are right now to be used by popd to come back later,LinuxCmd
+popd,"go back to an old location on _""cache""_",Navigation,,use path save in cache by pushd to teleport,LinuxCmd
+cat,concatenate and print files,FileOperation,cat Stupid.txt,will print the content of Stupid.txt in the terminal. Usefull to check log etc.,LinuxCmd
+touch,create a file or update timestamps,FileOperation,touch Stupid.txt,will create Stupid.txt,LinuxCmd
+cp,copy a file,FileOperation,cp Stupid.txt Smart.txt,will make a copy of Stupid.txt as Smart.txt,LinuxCmd
+mkdir,make a directory,FileOperation,mkdir MyFiles,create a directory named MyFiles,LinuxCmd
+mv,move or rename a file,FileOperation,mv Smart.txt MyFiles,moves Smart.txt inside MyFiles,LinuxCmd
+rm,remove a file or directory,FileOperation,rm Smart.txt,deletes the file Smart.txt,LinuxCmd
+rmdir,remove an empty directory,FileOperation,rmdir MyFiles,deletes the directory,LinuxCmd
+ln,link files,FileOperation,,,LinuxCmd
+head,output the first part of files,FileOperation,,,LinuxCmd
+tail,output the last part of files,FileOperation,,,LinuxCmd
+date,print the date and time,System,,,LinuxCmd
+cal,display a calendar,System,,,LinuxCmd
+lsblk,list connected drives,System,,,LinuxCmd
+passwd,change user password,User,,,LinuxCmd
+usermod,modify a user account,User,,,LinuxCmd
+groupadd,create a new group,User,,,LinuxCmd
+whoami,print current logged user,User,,,LinuxCmd
+sudo,execute a command as another user,Permission,sudo rmdir MyAdminFile,"lets you delete the file with the admin rights, but will ask the password before executing that you will have to type blindly",LinuxCmd
+su,change the current user,Permission,,,LinuxCmd
+chmod,change file permissions,Permission,chmod g+r Stupid.txt,will give writing rights to the group for Stupid.txt. u=user g=group o=other a=all + or - r/w/x or u/g/o,LinuxCmd
+chown,change the owner of a file,Permission,,,LinuxCmd
+chgrp,change the group of a file,Permission,,,LinuxCmd
+tar,archives files,Compression,,,LinuxCmd
+gzip,compress and expand files,Compression,,,LinuxCmd
+ssh,remote login,Remote,ssh username@IP,log on a remote device,LinuxCmd
+rsync,remote file copying tool,Remote,,,LinuxCmd
+ps,report process status,ProcessManagement,,lists running processes,LinuxCmd
+ps aux,list every tunning process in the system,ProcessManagement,,,LinuxCmd
+kill,stop a process,ProcessManagement,kill PID(ofTheCmd),,LinuxCmd
+top,display a reptitively updated list of running processes,ProcessManagement,,start a real-time stat-sheet on running processes ([[ctrl + C]] to close),LinuxCmd
+htop,improved version of [[top]],ProcessManagement,,,LinuxCmd
+bg,put a process on the background,ProcessManagement,,,LinuxCmd
+fg,bring a process on the foreground,ProcessManagement,,,LinuxCmd
+apt-get,,PackageManagement,,,LinuxCmd
+snap,,PackageManagement,,,LinuxCmd
+pip,,PackageManagement,,,LinuxCmd
+vim,,TextEditor,,,LinuxCmd
+nvim,,TextEditor,,,LinuxCmd
+nano,,TextEditor,,,LinuxCmd
+gedit,,TextEditor,,,LinuxCmd
+&,make the command run in the background,Misc,,,LinuxCmd
+&&,if command1 is successfull run command2,Misc,cmd1 && cmd2,,LinuxCmd
+>,puts cmd1 output inside cmd2 ,Misc,cmd1 > cmd2,,LinuxCmd
+>>,append cmd1 output to cmd2 output,Misc,cmd1 >> cmd2,like [[>]] but cmd1 output is append to cmd2 content instead of replacing it,LinuxCmd
+echo,say...,Misc,"echo ""Hello World""","will output Hello World. You can use this output by combining cmd ```echo ""Hello World"" > StupidTxt.txt```",LinuxCmd
+file,dertermine the file type,FileOperation,,,LinuxCmd
+find,uses a second part to specifie what you'r looking for (ex: -name) ,FileOperation,,,LinuxCmd
+grep,find an entry inside a file,FileOperation,,,LinuxCmd
+nano,create or edit file using nano,TextEditor,nano Stupid.txt,launch nano to edit Stupid.txt content,LinuxCmd
+python3 -m http.server,start a simple server on device (ctrl+c to close),Remote,,,LinuxCmd
+scp,to copy to or from an other device via ssh,Remote,scp filename destinationUser@destinationIP,"to send, scp desUser@desIP filenameforcopy to dl",LinuxCmd
+SIG,kill or stop a process cleanly or abruptly,ProcessManagement,SIGTERM,```SIGTERM``` (kill process after cleanning) ```SIGKILL``` (kill proc) ```SIGSTOP``` (stop/suspends proc),LinuxCmd
+systemctl,start process via systemd,System,systemctl [option] [service],"option: ```Start```, ```Stop```, ```Enable``` or ```Disable```",LinuxCmd
+wget,web download a file,Remote,,,LinuxCmd
+ctrl + R ,search for a previous command based on a letter or word,Misc,,"if you press several times in succession, you can browse these results.",LinuxCmd
+clear,clear terminal,Misc,,,LinuxCmd
+ctrl + C,to close a process,Misc,,,LinuxCmd
+env,,EnvironmentManagement,,"run another exe in an environment without modifying the current environment. Used without arguments, it prints a list of current environment variables.",LinuxCmd
+printenv,displays the names and values of all defined environment variables,EnvironmentManagement,,,LinuxCmd
+set,displays environment variables.,EnvironmentManagement,,,LinuxCmd
+unset,clears the memory of variables passed as parameters,EnvironmentManagement,,this command returns no result (void),LinuxCmd
+ls -a ,list .env file,EnvironmentManagement,,"The . env file allows you to customize your individual work environment variables. Since the . env file is hidden, use the ```ls -a``` command to list it.",LinuxCmd
+traceroute,,Remote,,,LinuxCmd
+ifconfig,,,,,LinuxCmd
+hostname,,,,,LinuxCmd

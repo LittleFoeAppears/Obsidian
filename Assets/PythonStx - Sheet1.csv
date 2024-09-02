@@ -1,0 +1,36 @@
+Stx,Description,Category,Example,Info,CmdType
+#,Begins a comment ignored by Python,Stx,# My first comment,,PythonStx
+"""""""",Begins a multi-ligne comment ignored by Python,Stx,"""""""
+this is a multiligne
+comment
+""""""",Only ignored at start of the ligne. Can be used for normal strigns inside arguments.,PythonStx
+and,,Keywords,,,PythonStx
+exec,,Keywords,,,PythonStx
+not,,Keywords,,,PythonStx
+assert,,Keywords,,,PythonStx
+finally,,Keywords,,,PythonStx
+or,,Keywords,,,PythonStx
+break,,Keywords,,,PythonStx
+for,,Keywords,,,PythonStx
+pass,,Keywords,,,PythonStx
+class,,Keywords,,,PythonStx
+from,,Keywords,,,PythonStx
+print,,Keywords,,,PythonStx
+continue,,Keywords,,,PythonStx
+global,,Keywords,,,PythonStx
+raise,,Keywords,,,PythonStx
+def,,Keywords,,,PythonStx
+if,,Keywords,,,PythonStx
+return,,Keywords,,,PythonStx
+del,,Keywords,,,PythonStx
+import,,Keywords,,,PythonStx
+try,,Keywords,,,PythonStx
+elif,,Keywords,,,PythonStx
+in,,Keywords,,,PythonStx
+while,,Keywords,,,PythonStx
+else,,Keywords,,,PythonStx
+is,,Keywords,,,PythonStx
+with,,Keywords,,,PythonStx
+except,,Keywords,,,PythonStx
+lambda,,Keywords,,,PythonStx
+yield,,Keywords,,,PythonStx

@@ -1,0 +1,13 @@
+Cmd,Description,Category,Example,Info,CmdType
+whoami,name of logged-in User,User,,,WindowsCmd
+hostname,computer name,System,,,WindowsCmd
+ipconfig,network settings,System,,,WindowsCmd
+/?,help to explain syntax for a cmd,Help,,,WindowsCmd
+cls,Clear prompt screen,Misc,,,WindowsCmd
+netstat,protocol stat + current TCP/IP connections,ProcessManagement,,,WindowsCmd
+net,"manage network resources (""/?"" does not work, use ""net help"", ""net help user"")",ProcessManagement,,,WindowsCmd
+tracert,trace route,Remote,,same as ```traceroute``` in [[Linux]],WindowsCmd
+gci,get child item (find),FileOperation,,,WindowsCmd
+cd,say current directory,Navigation,,same as ```pwd``` in [[Linux]],WindowsCmd
+ping,,Remote,ping www.website.com,send 100 ping instead of 4 with```ping -n 100 www.website.com```,WindowsCmd
+dir,see what's here,Navigation,,same as ```ls``` in [[Linux]],WindowsCmd
